@@ -10,3 +10,9 @@ body {
     font-size: 1.6rem;  
     text-align: center;
 }
+
+/* Map */
+#map {
+    min-height: 360px;
+    min-width: 400px;
+}
