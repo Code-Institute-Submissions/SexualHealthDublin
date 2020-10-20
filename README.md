@@ -124,9 +124,8 @@ This color was chosen because it is easy to read, indicates to the user what the
 
 ##### Background
 
-The [hero image](../images/hero.jpg) was selected because it was available for use without broaching usage rights, 
-and depicted a scene from a desert town like Night Vale. I went for an old-school ghost town image because an aspect of the 
-show is that nobody really knows when Night Vale exists, and it is often hinted that the citizens there are very, very old.
+The [hero image](../images/dublin.jpg) was selected because it was available for use without broaching usage rights, 
+and is a photograph of Dublin. I found the image [here](https://sharpmagazine.com/2015/12/22/the-travelling-man-dublin-ireland/).
 
 ### Wireframes 
 

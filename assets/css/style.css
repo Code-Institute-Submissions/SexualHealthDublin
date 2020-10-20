@@ -11,6 +11,24 @@ body {
     text-align: center;
 }
 
+.header {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 5rem;
+    text-align: center;
+    color: #264653;
+    padding-top: 2rem;
+}
+
+.caption {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    text-align: center;
+    color: #264653;
+    padding-top: 1rem;
+}
+
 /* Jumbotron */
 
 .main {
@@ -42,14 +60,25 @@ body {
     text-shadow: -1px 0 #E76F51, 0 1px #E76F51, 1px 0 #E76F51, 0 -1px #E76F51;
 }
 
+/* What We Do */
+
+
+
+
+
+
 /* Colors */
+
+.background {
+    background-color: #F4F1DE;
+}
 
 .burntsienna {
     color: #E76F51;
 }
 
 .charcoal {
-    color: #264653;
+    background-color: #264653;
 }
 
 .eggshell {
