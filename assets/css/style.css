@@ -11,6 +11,28 @@ body {
     text-align: center;
 }
 
+/* Colors */
+
+.burntsienna {
+    color: #E76F51;
+}
+
+.charcoal {
+    color: #264653;
+}
+
+.orangeyellowcrayola {
+    color: #E9C46A;
+}
+
+.persiangreen {
+    color: #2A9D8F;
+}
+
+.sandybrown {
+    color: #F4A261;
+}
+
 /* Map */
 #map {
     min-height: 360px;
