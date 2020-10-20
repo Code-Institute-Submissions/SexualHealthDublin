@@ -11,6 +11,37 @@ body {
     text-align: center;
 }
 
+/* Jumbotron */
+
+.main {
+    margin-top: 0;
+}
+
+.jumbotron {
+    background-color: transparent; 
+    background: url("../images/dublin.jpg") no-repeat center center fixed;
+    height: 100vh;
+    background-size: cover;
+    margin-bottom: 0;
+    opacity: 90%;
+}
+
+.jumbotron-text {
+    font-size: 8rem;
+    text-align: center;
+    color: #F4F1DE;
+    padding-top: 13rem;
+    text-shadow: -1px 0 #E76F51, 0 1px #E76F51, 1px 0 #E76F51, 0 -1px #E76F51;
+}
+
+.jumbotron-caption-text {
+    font-size: 4rem;
+    text-align: center;
+    color: #F4F1DE;
+    padding-top: 2rem;
+    text-shadow: -1px 0 #E76F51, 0 1px #E76F51, 1px 0 #E76F51, 0 -1px #E76F51;
+}
+
 /* Colors */
 
 .burntsienna {
@@ -19,6 +50,10 @@ body {
 
 .charcoal {
     color: #264653;
+}
+
+.eggshell {
+    color: #F4F1DE;
 }
 
 .orangeyellowcrayola {
