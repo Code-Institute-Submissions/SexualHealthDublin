@@ -29,6 +29,17 @@ body {
     padding-top: 1rem;
 }
 
+.row {
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+    overflow: hidden;
+}
+
 /* Jumbotron */
 
 .main {
@@ -49,7 +60,7 @@ body {
     text-align: center;
     color: #F4F1DE;
     padding-top: 13rem;
-    text-shadow: -1px 0 #E76F51, 0 1px #E76F51, 1px 0 #E76F51, 0 -1px #E76F51;
+    text-shadow: -1px 0 #264653, 0 1px #264653, 1px 0 #264653, 0 -1px #264653;
 }
 
 .jumbotron-caption-text {
@@ -57,13 +68,15 @@ body {
     text-align: center;
     color: #F4F1DE;
     padding-top: 2rem;
-    text-shadow: -1px 0 #E76F51, 0 1px #E76F51, 1px 0 #E76F51, 0 -1px #E76F51;
+    text-shadow: -1px 0 #264653, 0 1px #264653, 1px 0 #264653, 0 -1px #264653;
 }
 
 /* What We Do */
 
 
-
+.questionnaire {
+    display: flex;
+}
 
 
 
@@ -101,4 +114,5 @@ body {
 #map {
     min-height: 360px;
     min-width: 400px;
+    position: center;
 }
