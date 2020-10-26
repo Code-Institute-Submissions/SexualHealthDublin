@@ -90,12 +90,20 @@ body {
     color: #E76F51;
 }
 
+.button-color:hover {
+    color: #FFF;
+}
+
 .charcoal {
     background-color: #264653;
 }
 
 .eggshell {
     color: #F4F1DE;
+}
+
+.link-color:hover {
+    color: #FFF;
 }
 
 .orangeyellowcrayola {
