@@ -78,9 +78,18 @@ body {
     display: flex;
 }
 
-
+/* Buttons */
 
 /* Colors */
+
+.button {
+    background-color: #264653;
+    color: #F4F1DE; 
+}
+
+.button:hover {
+    color: #FFF;
+}
 
 .background {
     background-color: #F4F1DE;
@@ -88,10 +97,6 @@ body {
 
 .burntsienna {
     color: #E76F51;
-}
-
-.button-color:hover {
-    color: #FFF;
 }
 
 .charcoal {
