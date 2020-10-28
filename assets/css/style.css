@@ -87,6 +87,14 @@ body {
 
 /* Buttons */
 
+.popup-overlay {
+visibility:hidden;
+}
+
+.popup-content {
+visibility:hidden;
+}
+
 /* Colors */
 
 .button {
