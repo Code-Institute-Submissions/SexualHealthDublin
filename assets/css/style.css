@@ -73,8 +73,11 @@ body {
 
 /* What We Do */
 
-.services {
-    background-color: #F4F1DE;
+#doctors-image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    padding: 1rem;
 }
 
 .questionnaire {
