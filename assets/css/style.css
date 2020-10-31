@@ -44,6 +44,15 @@ body {
     border-radius: 50%;
 }
 
+/* Navbar & Footer */
+
+.navtext {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    color: #F4F1DE;
+}
+
 /* Jumbotron */
 
 .main {
@@ -89,33 +98,6 @@ body {
 
 /* Buttons */
 
-.popup-overlay {
-  /*Hides pop-up when there is no "active" class*/
-  visibility: hidden;
-  position: absolute;
-  background: #ffffff;
-  border: 3px solid #666666;
-  width: 50%;
-  height: 50%;
-  left: 25%;
-}
-
-.popup-overlay.active {
-  /*displays pop-up when "active" class is present*/
-  visibility: visible;
-  text-align: center;
-}
-
-.popup-content {
-  /*Hides pop-up content when there is no "active" class */
-  visibility: hidden;
-}
-
-.popup-content.active {
-  /*Shows pop-up content when "active" class is present */
-  visibility: visible;
-}
-
 button {
   display: inline-block;
   vertical-align: middle;
@@ -126,9 +108,6 @@ button {
   background: #ffffff;
   border: 1px solid #666666;
 }
-
-
-
 
 button:hover {
   border: 1px solid #666666;
