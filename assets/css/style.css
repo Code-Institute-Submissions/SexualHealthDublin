@@ -94,22 +94,40 @@ body {
 /* Buttons */
 
 button {
-  display: inline-block;
-  vertical-align: middle;
-  border-radius: 30px;
-  margin: .20rem;
-  font-size: 1rem;
-  color: #666666;
-  background: #ffffff;
-  border: 1px solid #666666;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 30px;
+    margin: .20rem;
+    font-size: 1rem;
+    color: #666666;
+    background: #ffffff;
+    border: 1px solid #666666;
 }
 
 button:hover {
-  border: 1px solid #666666;
-  background: #666666;
-  color: #ffffff;
+    border: 1px solid #666666;
+    background: #666666;
+    color: #ffffff;
 }
 
+contact-button {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 30px;
+    margin: .20rem;
+    background: #F4A261;
+    border: 1px solid #666666;
+    
+}
+
+contact-button:hover {
+    border: 1px solid #fff;
+    background: #F4A261;
+    color: #ffffff;
+}
 /* Colors */
 
 .button {
