@@ -1,14 +1,14 @@
 function initMap() {
-    var map = new google.maps.Map(document.getElementById('map'), {
+    const map = new google.maps.Map(document.getElementById('map'), {
         zoom: 10,
         center: {
         lat: 53.343792,
         lng: -6.254572
         }
     });
-  var infoWin = new google.maps.InfoWindow();
-  var markers = locations.map(function(location, i) {
-    var marker = new google.maps.Marker({
+  const infoWin = new google.maps.InfoWindow();
+  const markers = locations.map(function(location, i) {
+    const marker = new google.maps.Marker({
       position: location
     });
     google.maps.event.addListener(marker, 'click', function(evt) {
@@ -17,11 +17,11 @@ function initMap() {
     })
     return marker;
   });
-  var markerCluster = new MarkerClusterer(map, markers, {
+  const markerCluster = new MarkerClusterer(map, markers, {
     imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'
     });
 }
-var locations = [
+const locations = [
     { lat: 53.342150, 
       lng: -6.279260,
       info: "Himerus Health<br>4th Floor, The Meath Primary Care Centre<br>Camden Clinic, Heytesbury Street, D8<br>Mon-Fri: 8:30-21:00<br>Sat: 10:00-13:00" }, //https://sticlinicdublin.ie/contact/
