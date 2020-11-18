@@ -83,3 +83,13 @@ const locations = [
 
 google.maps.event.addDomListener(window, "load", initMap);
 
+//Modal
+
+$("#exampleModal").modal({
+	backdrop: true
+});
+
+$("#form").submit(function (event) {
+	event.preventDefault();
+	$("#submitted").text("You submitted");
+});
