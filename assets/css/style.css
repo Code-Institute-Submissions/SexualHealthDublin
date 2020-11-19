@@ -100,7 +100,7 @@ body {
     display: flex;
 }
 
-/* Buttons & Modals */
+/* Buttons */
 
 .button {
     display: inline-block;
@@ -153,6 +153,12 @@ body {
     border: 1px solid #fff;
     background: #F4A261;
     color: #ffffff;
+}
+
+/* Modals */
+
+.modal-title {
+    
 }
 
 /* Colors */
