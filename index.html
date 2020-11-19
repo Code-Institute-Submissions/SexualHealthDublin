@@ -82,98 +82,99 @@
             <h2 class="header">- Find Personalized Sexual Healthcare -</h2>
             <h3 class="caption">Fill out our quick questionnaire and we'll be back to you in 48 to 72 business hours!</h3>
         </div>
+    </div>
 <!-- Button -->
     <div class="col-12">
         <button type="button" class="questionnaire-button" data-toggle="modal" data-target="#exampleModal">
             Sexual Health Questionnaire
         </button>
     </div>
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-	<div class="modal-dialog">
-		<div class="modal-content">
-			<div class="modal-header">
-				<h5 class="modal-title" id="exampleModalLabel">Sexual Health Questionnaire</h5>
-				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-					<span aria-hidden="true">&times;</span>
-				</button>
-			</div>
-			<div class="modal-body">
-				<form id="form">
-                    <div class="form-group">
-                        <label>Your name</label>
-                        <div class="form-row">
-                            <div class="col">
-                                <input type="text" class="form-control" placeholder="First name">
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Sexual Health Questionnaire</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form id="form">
+                        <div class="form-group">
+                            <label>Your name</label>
+                            <div class="form-row">
+                                <div class="col">
+                                    <input type="text" class="form-control" placeholder="First name">
+                                </div>
+                                <div class="col">
+                                    <input type="text" class="form-control" placeholder="Last name">
+                                </div>
                             </div>
-                            <div class="col">
-                                <input type="text" class="form-control" placeholder="Last name">
+                        </div>
+                        <div class="form-group">
+                            <label>Your email address:</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        </div>
+                        <div class="form-group">
+                            <label>Your pronouns:</label>
+                            <select class="custom-select" size="5">
+                                <option selected>Please select your pronouns:</option>
+                                <option value="1">She/her</option>
+                                <option value="2">He/him</option>
+                                <option value="3">They/them</option>
+                                <option value="4">She/them</option>
+                                <option value="5">He/them</option>
+                                <option value="6">Ze/zir</option>
+                                <option value="7">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="question1">Question 1:</label>
+                            <textarea class="form-control" id="question1" placeholder="What services are you looking for today?" required></textarea>
+                            <div class="invalid-feedback">
+                            Please let us know what services you are looking for.
                             </div>
                         </div>
-                    </div>
-                    <div class="form-group">
-                        <label>Your email address:</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                    </div>
-                    <div class="form-group">
-                        <label>Your pronouns:</label>
-                        <select class="custom-select" size="5">
-                            <option selected>Please select your pronouns:</option>
-                            <option value="1">She/her</option>
-                            <option value="2">He/him</option>
-                            <option value="3">They/them</option>
-                            <option value="4">She/them</option>
-                            <option value="5">He/them</option>
-                            <option value="6">Ze/zir</option>
-                            <option value="7">Other</option>
-                        </select>
-                    </div>
-                    <div class="form-group">
-                        <label for="question1">Question 1:</label>
-                        <textarea class="form-control" id="question1" placeholder="What services are you looking for today?" required></textarea>
-                        <div class="invalid-feedback">
-                        Please let us know what services you are looking for.
+                        <div class="form-group">
+                            <label for="question2">Question 2:</label>
+                            <textarea class="form-control" id="question2" placeholder="Please describe your sexual activity in relation to a) partners, b) frequency, and c) use of contraceptives" required></textarea>
+                            <div class="invalid-feedback">
+                            Please describe your sexual activity.
+                            </div>
                         </div>
-                    </div>
-                    <div class="form-group">
-                        <label for="question2">Question 2:</label>
-                        <textarea class="form-control" id="question2" placeholder="Please describe your sexual activity in relation to a) partners, b) frequency, and c) use of contraceptives" required></textarea>
-                        <div class="invalid-feedback">
-                        Please describe your sexual activity.
+                        <div class="form-group">
+                            <label for="question3">Question 3:</label>
+                            <textarea class="form-control" id="question3" placeholder="Please describe your sexual health history (have you been diagnosed as having any STDs/STIs in the past, or do you currently live with HIV or AIDS, etc.)" required></textarea>
+                            <div class="invalid-feedback">
+                            Please describe your sexual health history.
+                            </div>
                         </div>
-                    </div>
-                    <div class="form-group">
-                        <label for="question3">Question 3:</label>
-                        <textarea class="form-control" id="question3" placeholder="Please describe your sexual health history (have you been diagnosed as having any STDs/STIs in the past, or do you currently live with HIV or AIDS, etc.)" required></textarea>
-                        <div class="invalid-feedback">
-                        Please describe your sexual health history.
+                        <div class="form-group">
+                            <label for="question4">Question 4:</label>
+                            <textarea class="form-control" id="question4" placeholder="Do you have any concerns or specific requests (would you prefer a female doctor, in a specific part of the city, etc.)" required></textarea>
+                            <div class="invalid-feedback">
+                            Please let us know any concerns or specific requests. If none, please type "none".
+                            </div>
                         </div>
-                    </div>
-                    <div class="form-group">
-                        <label for="question4">Question 4:</label>
-                        <textarea class="form-control" id="question4" placeholder="Do you have any concerns or specific requests (would you prefer a female doctor, in a specific part of the city, etc.)" required></textarea>
-                        <div class="invalid-feedback">
-                        Please let us know any concerns or specific requests. If none, please type "none".
+                        <div class="form-group">
+                            <label for="question5">Question 5:</label>
+                            <textarea class="form-control" id="question5" placeholder="Are you covered by a national health plan, or by insurance? If so, please specify." required></textarea>
+                            <div class="invalid-feedback">
+                            Please let us know if you are covered by a national health plan, or if you have insurance.
+                            </div>
                         </div>
-                    </div>
-                    <div class="form-group">
-                        <label for="question5">Question 5:</label>
-                        <textarea class="form-control" id="question5" placeholder="Are you covered by a national health plan, or by insurance? If so, please specify." required></textarea>
-                        <div class="invalid-feedback">
-                        Please let us know if you are covered by a national health plan, or if you have insurance.
+                        <p id="submitted"></p>
+                        <div class="form-group form-check">
+                            <input type="checkbox" class="form-check-input" id="Check1">
+                            <label class="form-check-label" for="Check1">I understand that if I am in immediate need of assistance, I should contact emergency services. Sexual Health Dublin is not held accountable if I do not do this.</label>
                         </div>
-                    </div>
-					<p id="submitted"></p>
-					<div class="form-group form-check">
-						<input type="checkbox" class="form-check-input" id="Check1">
-						<label class="form-check-label" for="Check1">I understand that if I am in immediate need of assistance, I should contact emergency services. Sexual Health Dublin is not held accountable if I do not do this.</label>
-					</div>
-					<button type="submit" class="btn btn-primary">Submit</button>
-				</form>
-			</div>
-		</div>
-	</div>
-</div> 
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div> 
     <!-- Questionnaire 
         <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdKy7-41GIEqqJJy8fTtDnDK-7yQCmch37dWPP6PRa-gD5V0A/viewform?embedded=true" 
         width="80%" height="70%" frameborder="0" marginheight="0" marginwidth="0" class="questionnaire">Loading…</iframe>
