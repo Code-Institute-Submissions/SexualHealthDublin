@@ -150,7 +150,7 @@ google.maps.event.addDomListener(window, "load", initMap);
  */
 //Contact Modal
 
-$("#contactModal").modal({
+$(".modalOpen").modal({
 	backdrop: true
 });
 
@@ -160,10 +160,6 @@ $("#form").submit(function (event) {
 });
 
 //Questionnaire Modal
-
-$("#questionnaireModal").modal({
-	backdrop: true
-});
 
 $("#questionnaireForm").submit(function(event){
 	event.preventDefault();
