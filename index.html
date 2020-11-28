@@ -46,7 +46,7 @@
                 </button>
             </div>
             <div class="modal-body">
-                <form>
+                <form class="formSubmitted">
                     <div>
                         <label>Your Name</label>
                             <div class="form-row">
@@ -66,6 +66,7 @@
                         <label for="exampleFormControlTextarea1">Questions & Comments</label>
                         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Please let us know how we can help you today!"></textarea>
                     </div>
+                    <p class="submitted"></p>
                     <div>
                         <button type="submit" class="contact-button" data-toggle="button" aria-pressed="false">Contact us!</button>
                     </div>
@@ -222,8 +223,8 @@
                             <input type="checkbox" class="form-check-input" id="Check1">
                             <label class="form-check-label" for="Check1">I understand that if I am in immediate need of assistance, I should contact emergency services. Sexual Health Dublin is not held accountable if I do not do this.</label>
                         </div>
-                        <div id="questionnaireSubmitted">
-                            <button type="submit" class="contact-button">Submit</button> <!--Make submit button do the thing-->
+                        <div class="formSubmitted">
+                            <button type="submit" class="contact-button submitted">Submit</button> <!--Make submit button do the thing-->
                         </div>
                     </form>
                 </div>

@@ -39,7 +39,8 @@ can seek out information on clinics and other supports in the Dublin area.
 
 ## UX User Experience
 ### Project Goals
-The goal of this project is to provide users with infromation pertaining to their sexual health. 
+The goal of this project is to provide users with infromation pertaining to their sexual health,
+and to give them a way to ask for the help that they need, which can be difficult for many. 
 It is aimed at people living in the Dublin area. The finished site will be clean and simple 
 enough to be easily accessible, with usability as the top priority - there are currently other 
 sites like this one in use, but they are cluttered and sometimes difficult to navigate.
@@ -51,7 +52,6 @@ sites like this one in use, but they are cluttered and sometimes difficult to na
 * Responsiveness to different devices.
 
 #### User Stories:
-
 * As a user I expect to be able to contact professionals at SHD for assistance.
 * As a user I expect to be able to fill out and submit the SHD questionnaire.
 * As a user I expect to be able to browse services by location.

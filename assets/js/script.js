@@ -146,22 +146,19 @@ google.maps.event.addDomListener(window, "load", initMap);
 
 
 /**
- * Change modals to have similar classes so that you can call those functions with just TWO scripts as opposed to 4
- */
-//Contact Modal
+ * This snippet of code allows for modals to pop up when the user
+ * clicks on the contact us button, or on the questionnaire button.
+ **/
 
 $(".modalOpen").modal({
 	backdrop: true
 });
 
-$("#form").submit(function (event) {
-	event.preventDefault();
-	$("#submitted").text("You submitted");
-});
+/**
+ * This snippet of code 
+ **/
 
-//Questionnaire Modal
-
-$("#questionnaireForm").submit(function(event){
+$(".formSubmitted").submit(function(event){
 	event.preventDefault();
-	$("#questionnaireSubmitted").text("You submitted");
-});
+	$(".submitted").text("You submitted");
+})
