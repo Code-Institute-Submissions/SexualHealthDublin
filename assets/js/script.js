@@ -1,4 +1,11 @@
-//Map
+/**
+ * This map modal allows for users to click marked locations on the provided map.
+ * Each map marker, when clicked, displays the name of the service, their location,
+ * their hours, and any additional information if needed (i.e., if they only serve
+ * people in the gbMSM community, or if they take walk-ins).
+ * The code here also allows for map markers that are near one another to group
+ * together in a cluster automatically, displaying service density to the user.
+*/
 
 function initMap() {
     const map = new google.maps.Map(document.getElementById('map'), {
@@ -137,6 +144,10 @@ const locations = [
 
 google.maps.event.addDomListener(window, "load", initMap);
 
+
+/**
+ * Change modals to have similar classes so that you can call those functions with just TWO scripts as opposed to 4
+ */
 //Contact Modal
 
 $("#contactModal").modal({
