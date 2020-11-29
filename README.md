@@ -129,11 +129,9 @@ I used [Balsamiq](https://balsamiq.com/) to build this project’s wireframe. Yo
 ## Features
 
 * Site-wide consistent navbar and footer
-* Community calendar
-* Internship application form
-* Communication form
-* Link to instruct the user on how to add their event to the community calendar
-* Weather videos for the week
+* Contact button with modal form
+* Questionnaire button with modal form
+* Interactive map with markers and marker clusters
 
 ## Technologies Used
 
