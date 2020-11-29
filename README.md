@@ -145,6 +145,7 @@ I used [Balsamiq](https://balsamiq.com/) to build this project’s wireframe. Yo
 * [Favicon](https://favicon.io/)
 * [Font-Awesome](https://fontawesome.com/icons?d=gallery)
 * [Git](https://git-scm.com/)
+* [Google Maps API](https://developers.google.com/maps/documentation/javascript/overview)
 * [Google Fonts](https://fonts.google.com/)
 * [jQuery](https://jquery.com/)
 
