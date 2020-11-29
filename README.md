@@ -79,8 +79,9 @@ sites like this one in use, but they are cluttered and sometimes difficult to na
 
 ## Design Choices
 
-The color palette for this site is inspired by the color palette for the Welcome To Night Vale podcast logo and 
-[official website](http://www.welcometonightvale.com/), which relies heavily on different shades of purple. 
+The color palette for this site is inspired by colors I saw being used frequently on other
+medical websites. The [Coolers](coolers.co) palette I created can be found
+[here](https://coolors.co/f4a261-ffffff-f4f1de-264653).
 
 ##### Fonts
 
@@ -92,44 +93,38 @@ I then chose Roboto because it was one of the top paired fonts on Google Fonts.
 
 ##### Icons
 
-I chose to use only two kinds of icons: footer icons that serve as links to Night Vale Community Radio's other social 
-media pages, and a hamburger icon that serves as a drop-down navbar menu on mobile devices and tablets. All icons used 
-are widely recognizable for their use.
+I chose to use only one icons: a hamburger icon that serves as a drop-down navbar menu on mobile devices and tablets.
+This icon is widely recognizable because of the regularity of its use.
 
 ##### Colors
 
 As mentioned just under the Design Choices header, the 
-[color palette](https://coolors.co/10002b-240046-3c096c-5a189a-7b2cbf-9d4edd-c77dff-e0aaff) I used was from 
-[Coolors.co](coolors.co). I attributed different colors to different sections in a gradient pattern, and named 
-them after the sections or functions they were predominantely used for in the site.
+[color palette](https://coolors.co/f4a261-ffffff-f4f1de-264653) I used was from 
+[Coolors.co](coolors.co). 
 
-![NVCR Color Palette](./wireframes/paletteNVCR.png "NVCR Color Palette")
+![SHD Color Palette](./wireframes/SHDPalette.png "SHD Color Palette")
 
-* .contact-color: #240046 **“Russian Violet”** I decided to use this color as the color for the contact section 
-because the I planned to have the contact section be at the bottom of the site. It being at the bottom of the site 
-played out well for the plan to have the main section colors work in a gradient.
-* .apply-color: #3c096c **“Persian Indigo”** I decided to use this color for the apply section because I planned it 
-as the section above the contact section, and that was the next color for the gradient. I planned it as the navbar because I 
-thought it worked well with the link text color, and for the footer because I didn't want it to blend in with the last
-section color.
-* .weather-color: #7b2cbf **“French Violet”** I decided to use this color for the weather section because I planned 
-it as the section above the about section, and that was the next color for the gradient.
-* .calendar-color: #9d4edd **"Dark Orchid"** I decided to use this color for the calendar section because I planned 
-it as the section above the weather section, and that was the next color for the gradient.
-* .btn-color and .link-color: #E0AAFF **"Mauve"** This color was perfect for the site's buttons, links and text as 
-it was light enough to be clearly legible over even the lightest section color, and it really pops off of the dark navbar, footer, 
-and contact section.
-* .btn-color:hover and .link-color:hover: #FFF **"White"** When link text or a button is hovered over, it goes white. 
-This color was chosen because it is easy to read, indicates to the user what they are about to select, and still looks clean.
+* .background, .button-hover, & .link-color:hover: #FFF **“White”** This is the background color for the site, and also the pseudo-class color
+that is invoked when the user clicks or hovers over a button. I chose white because it is easy and calm,
+and in an attempt to follow the pattern of many other medical websites.
+* .charcoal: #264653 **“Charcoal”** I chose this color for the navbar and footer, and for the body text on
+the page because it bounces off the white well but not so harshly as black, because it works well with the
+hero image, and because it in the same family of colors I saw on many other medical websites.
+* .eggshell: #F4F1DE **“Eggshell”** Eggshell was decided upon for text that appears over charcoal backgrounds
+and over the image because it bounces off the dark color well but is still soft. It also reads better over the image
+than white did.
+* .sandybrown: #F4A261 **"Sandy Brown"** I selected Sandy Brown because it is alert enough for a button, but is still
+softer than using a marigold or bright red color. It also works well with Charcoal and with the hero image.
 
 ##### Background
 
 The [hero image](../images/dublin.jpg) was selected because it was available for use without broaching usage rights, 
-and is a photograph of Dublin. I found the image [here](https://sharpmagazine.com/2015/12/22/the-travelling-man-dublin-ireland/).
+and is a photograph of Dublin. I found the image 
+[here](https://sharpmagazine.com/2015/12/22/the-travelling-man-dublin-ireland/).
 
 ### Wireframes 
 
-I used [Balsamiq](https://balsamiq.com/) to build this project’s wireframe. You can view them [here](wireframes/wireframesSHCO.pdf).
+I used [Balsamiq](https://balsamiq.com/) to build this project’s wireframe. You can view them [here](wireframes/wireframesSHD.pdf).
 
 ## Features
 
