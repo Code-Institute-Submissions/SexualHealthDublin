@@ -259,6 +259,12 @@ which I had missed.
 * Fix: Updating the href.
 * Verdict: I had changed the corresponding div ID and forgotten to update it in the navbar a tag!
 
+**Questionnaire submit button not displaying text correctly** 
+* Bug: When clicked on, the button either didn't display text but didn't reboot the page, or it displayed the text
+but rebooted the page automatically.
+* Fix: Removing a misplaced semicolon.
+* Verdict: Once I took out a misplaced semicolon, it worked like a charm!
+
 #### Known Bugs
 
 Sometimes, when in dev tools the site works smoothly. Other times, the screen doesn't automatically fit, 

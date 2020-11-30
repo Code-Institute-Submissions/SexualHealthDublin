@@ -155,17 +155,23 @@ $(".modalOpen").modal({
 });
 
 /**
- * This snipped of code means that when the user clicks to submit/contact
+ * This snipped of code means that when the user clicks to contact
  * us, the page doesn't reload.
  **/
 $(document).ready(function(){
     $("#form_id").submit(function(){
         return condition;
-    });
-    function myQuestionnaireFunction() {
-    document.getElementById("questionnaireSubmit").innerHTML = "You've submitted! We'll be in contact with you shortly.";
-};
+    })
 });
+
+/**
+ * This snippet of code returns innerHTML text to the user
+ * when they have submitted the questionnaire form. 
+ **/
+function myQuestionnaireFunction() {
+  document.getElementById("questionnaireSubmit").innerHTML = "Thanks for contacting us! We'll be in contact with you shortly.";
+};
+
 
 /**
  * This snippet of code returns innerHTML text to the user
