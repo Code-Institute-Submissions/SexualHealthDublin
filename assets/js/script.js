@@ -155,10 +155,21 @@ $(".modalOpen").modal({
 });
 
 /**
- * This snippet of code 
+ * This snipped of code means that when the user clicks to submit/contact
+ * us, the page doesn't reload.
  **/
+$(document).ready(function(){
+    $("#form_id").submit(function(){
+        return condition;
+    });
+});
 
+/**
+ * This snippet of code 
 $(".formSubmitted").submit(function(event){
+    console.log("sdfsdf");
 	event.preventDefault();
 	$(".submitted").text("You submitted");
 })
+
+**/

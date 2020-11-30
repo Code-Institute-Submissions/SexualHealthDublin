@@ -151,50 +151,55 @@ I used [Balsamiq](https://balsamiq.com/) to build this project’s wireframe. Yo
 
 ## Testing
 
-Since this was my first website, I wanted to make sure that I was thurough in my testing. Thankfully, I was able
-to accomplish this with the help of the Slack community and my dedicated mentor. 
+Working to follow the methodology displayed in the course, I wanted to make sure that 
+I was thurough in my testing. Thankfully, I was able to accomplish this with the help 
+of the Slack community and my incredibly helpful mentor, Simen. 
 
 ##### Test Planning
 
-Before creating this site, I made wireframes that allowed me to plan out my testing methods. Essentially, I decided
-that I would test as I went along, clearing interactive elements in particular before moving on. Of course, things
-don't always go to plan and there were a few times where I hopped around in order to not burn myself out one single points.
+Before I made this site, I created a set of wireframes. Early building showed me that what I was
+hoping to create - a website with multiple separate maps on one page - was highly advanced, so I
+scraped that site, reworked my wireframes, and got back to work on the site you have in front of you.
+I tested bits and bobs as I went through the creation process.
 
 ##### Testing Stories
 
-* Originally, I had wanted to use a carousel for the weather videos. After implementing and testing this, I realized that
-the only way I would be able to successfuly implement the carousel (so that videos would automatically stop when 
-the user scrolled past to the next one) would require JS. So, I removed the carousel.
+* Originally, I wanted to put multiple maps on the page dedicated to specific services - HIV/AIDS screening,
+LGBTQIA+ friendly services, pregnancy services, etc. - however, as stated above, this didn't work out, so I 
+combined the maps into one. Further research showed me that one map would be more appropriate, as the amount
+of services in Dublin are lacking.
 
-* My original plan for the apply section was to have a file upload button. However, again it seemed like JS would be the best
-way to get it to sit on the page the way I needed it to. Again, I removed it and replaced it with a form check.
+* As I added markers to the map, I kept an eye on where the clusters turned out. If there were areas that 
+were lacking any locations, I did extra work to find services in those areas. As there is no conclusive 
+database with these locations that I could find, this proved a bit difficult, but was rewarding. I did
+bend a little bit to include doctor's offices that were general practice, but advertise sexual health services
+in order to do this.
 
-* I quickly became well aquainted with `target=_blank` for the links I created! 
+* My original plan included only one modal, which was called when the user clicks on the questionnaire button.
+However, I liked it so much and decided that adding a modal for contact would be helpful to the user, and 
+would help me with practicing my coding abilities!
 
-* Figuring out the jumbotron took a bit longer than I had anticipated. I was confused as to why, even though I had been using
-rem units, the text size wasn't responding well. In the end, media queries were what saved the day!
-
+* While I originally used a jumbotron for the hero section of this website as I did with my MS1, I opted to 
+not repeat that. I decided that for this site, a regular div looked much nicer and cleaner, and proved less
+frustrating re: centering the hero text.
 
 ### Overall
 
 **Responsiveness**
-* **Plan**: Following the principle of mobile-first design, I knew that this had to be entirely responsive. 
-Given this, my level of education, and the guidelines of this project, this meant Bootstrap as a core framework, with 
-regular use of dev tools to run tests throughout and a post-peer-review test before submission.
-* **Implementation**: As I wrote my code, I frequently pulled from Bootstrap, modifying as needed. Modifications
-were almost entirely regarding aesthetic/design, and testing was fairly simple thanks to dev tools and being told by my
-fellow students about ctrl+shift+r.
-* **Result**: After some modifications (i.e., media query for .jumbotron-text), the site is fully responsive,
-with no overflow or illegible information.
+* **Plan**: Following the principle of mobile-first design, I knew my websited needed to be entirely responsive. 
+To do this, I used a Bootstrap framework, and constantly referred back to dev tools to keep an eye on things.
+* **Implementation**: As I built my site, I regularly checked back in on dev tools, pushing the size around to 
+make sure things stayed where they were meant to be.
+* **Result**: After regular testing, the site is fully responsive.
 * **Verdict**: The site is responsive! The test passes.
 
 **Design**
-* **Plan**: I wanted the site to be inline with the podcast's official color scheme, which lead to the use of
-purples. Using the darkest shade in the header and footer allowed for a sense of bordering, while the lightest shade popped
-well against all of the other colors, making it the perfect choice for text and links.
-* **Implementation**: Creating classes for the colors allowed for very easy, understandable and smooth design. 
-* **Result**: The color palette I chose to use works well.
-* **Verdict**: Because the color palette works well, this test passes!
+* **Plan**: I wanted my site to be crisp and comforting - seeking sexual health services can be terribly
+daunting, so information presented in a calm but also clear way was vital to me. I also wanted to follow 
+the conventions of other healthcare sites - soft, bold colors over white backgrounds, and plain text.
+* **Implementation**: Selecting colors and fonts that follow these requirements and conventions. 
+* **Result**: The color palette and fonts I chose work well.
+* **Verdict**: Because these work well well, this test passes!
 
 ### Features
 
