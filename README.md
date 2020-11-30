@@ -248,31 +248,25 @@ as this looks cleaner and unified. I hand-entered the different map markers, sel
 Over the process of creating this site, I ran into a few bugs, but thankfully between Simen, Slack, and the tutors, 
 I sorted these out! Here are a few examples:
 
-**Jumbotron text overflow**
-* Bug: The text over the jumbotron wasn't behaving like I wanted it to. It wasn't responsive enough to small screens.
-* Fix: Creating media queries!
-* Verdict: Simen reminded me of this - I didn't end up using it in the spot he originally suggested because it felt like 
-I had less control than I wanted in that area, but it was perfect for this bug.
+**Map disappearing**
+* Bug: After I added in all of the marker locations, the map disappeared!
+* Fix: Some digging showed me how to fix this - Google Maps API reqires one last comma in the string of locations,
+which I had missed. 
+* Verdict: Popped the comma on the end, and the map reappeared with all the markers in tact!
 
-**Footer icon alignment** 
-* Bug: I was struggling to align the icons in the footer in a way that was aesthetically pleasing.
-* Fix: Using flex rules in the css #footer id.
-* Verdict: Simen had me take some time playing with [Flexbox Froggy](boxfroggy.com), which is what gave me 
-the tools to fix this!
-
-**Navbar hamburger size**
-* Bug: In small screens, the navbar dropdown hamburger icon was inconveniently small.
-* Fix: Overrode .container in style.css by applying font-size: 2vw;
-* Verdict: Fixed with course tools!
+**Home navbar link not functioning** 
+* Bug: When clicked on, the home link in the navbar didn't function.
+* Fix: Updating the href.
+* Verdict: I had changed the corresponding div ID and forgotten to update it in the navbar a tag!
 
 #### Known Bugs
 
 Sometimes, when in dev tools the site works smoothly. Other times, the screen doesn't automatically fit, 
-and there is a horizontal scroll.
+and there is a horizontal scroll. I ran into this issue with my MS1, and think it may just be ... one of those things.
 
 ## Deployment
 
-Sexual Health Dbulin was developed in GitPod, hosted by GitHub and using git.
+Sexual Health Dublin was developed in GitPod, hosted by GitHub and using git.
 
 The following steps were followed to deploy Sexual Health Check Online through GitHub Pages:
 
