@@ -155,8 +155,8 @@ $(".modalOpen").modal({
 });
 
 /**
- * This snipped of code means that when the user clicks to contact
- * us, the page doesn't reload.
+ * This snippet of code means that when the user clicks the buttons 
+ * to submit or to contact us, the page doesn't reload.
  **/
 $(document).ready(function(){
     $("#form_id").submit(function(){

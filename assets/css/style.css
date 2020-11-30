@@ -29,15 +29,6 @@ body {
     padding-top: 1rem;
 }
 
-.getStarted {
-    font-family: "Open Sans", sans-serif;
-    font-weight: 700;
-    font-size: 3.5rem;
-    text-align: center;
-    color: #264653;
-    padding-top: 1rem;
-}
-
 .row {
     margin: 0;
     padding: 0;
@@ -53,6 +44,37 @@ body {
     border-radius: 50%;
 }
 
+/* Colors */
+
+.button {
+    background-color: #264653;
+    color: #F4F1DE; 
+}
+
+.button:hover {
+    color: #FFF;
+}
+
+.background {
+    background-color: #FFF;
+}
+
+.charcoal {
+    background-color: #264653;
+}
+
+.eggshell {
+    color: #F4F1DE;
+}
+
+.link-color:hover {
+    color: #FFF;
+}
+
+.sandybrown {
+    color: #F4A261;
+}
+
 /* Navbar & Footer */
 
 .navtext {
@@ -62,7 +84,7 @@ body {
     color: #F4F1DE;
 }
 
-/* Header */
+/* Header/Hero Section */
 .heroimg {
     background: url("../images/dublin.jpg") no-repeat center center fixed;
     background-size: cover;
@@ -88,7 +110,7 @@ body {
     text-shadow: -1px 0 #264653, 0 1px #264653, 1px 0 #264653, 0 -1px #264653;
 }
 
-/* What We Do */
+/* What We Do Section */
 
 #nurses-image {
     display: block;
@@ -98,6 +120,17 @@ body {
 
 .questionnaire {
     display: flex;
+}
+
+/* Get Started Section */
+
+.getStarted {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 3.5rem;
+    text-align: center;
+    color: #264653;
+    padding-top: 1rem;
 }
 
 /* Buttons */
@@ -160,49 +193,6 @@ body {
 .modal-title {
     color: #F4A261;
     font-size: 2rem;
-}
-
-/* Colors */
-
-.button {
-    background-color: #264653;
-    color: #F4F1DE; 
-}
-
-.button:hover {
-    color: #FFF;
-}
-
-.background {
-    background-color: #FFF;
-}
-
-.burntsienna {
-    color: #E76F51;
-}
-
-.charcoal {
-    background-color: #264653;
-}
-
-.eggshell {
-    color: #F4F1DE;
-}
-
-.link-color:hover {
-    color: #FFF;
-}
-
-.orangeyellowcrayola {
-    color: #E9C46A;
-}
-
-.persiangreen {
-    color: #2A9D8F;
-}
-
-.sandybrown {
-    color: #F4A261;
 }
 
 /* Map */
