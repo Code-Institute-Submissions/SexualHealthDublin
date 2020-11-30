@@ -205,51 +205,42 @@ the conventions of other healthcare sites - soft, bold colors over white backgro
 
 **Navbar and Footer**
 * **Plan**: In the planning phase, I decided that I wanted the navbar to be fixed and for the links to shrink 
-into a dropdown menu for mobile and tablet screens. I wanted the footer to only be visible when the user scrolls to the 
-bottom of the page, and for it to have links to other Night Vale sites (Instagram, Tripadvisor, etc.)
-* **Implementation**: I used Bootstrap to build these.
-* **Result**: The navbar and footer are both positioned where I want them and are fully responsive.
-* **Verdict**: Regarding these results, this test passes.
+into a dropdown menu for mobile and tablet screens. This would make the use of the navbar more feasible for users
+on mobile and tablets. I wanted the footer to only be visible when the user scrolls to the 
+bottom of the page, and for it to have a link to the creator's (my) github page, with a copyright. This doesn't 
+seem like the sort of service that would very much benefit from other social media platforms, which is why I didn't 
+create little link icons like in my MS1.
+* **Implementation**: I used Bootstrap to build the navbar and footer.
+* **Result**: The navbar and footer are both positioned where I want them and are fully responsive, with links functioning.
+* **Verdict**: Because of the results, the test passes!
 
-**Community Calendar**
-* **Plan**: I wanted this calendar to look something like a table, but was advised by Simen to not use an
-actual Bootstrap table, as those are not very workable re: responsivness. I planned to have the different rows be different
-colors in the reverse of the section color gradient rather than having borders, as I found this more aesthetically pleasing.
-* **Implementation**: I used Bootstrap to build these rows.
-* **Result**: The community calendar is responsive, clean and easily readable.
-* **Verdict**: Regarding these results, this test passes.
 
-**Application Form**
-* **Plan**: Originally, I wrote this part to include a file upload form. However, toying around with it I 
-discovered that the only way to make it fit in the page the way that I wanted was to implement JS, which I am not
-educated in yet. So, I reworked it a bit to have the two links, three input fields, two form-checks, and a submit button.
-* **Implementation**: I used Bootstrap to implement the various form elements.
-* **Result**: While the end result isn't what I had envisioned, it is clean, responsive, and understandable.
-* **Verdict**: Regarding these results, this test passes.
+**Contact Us Modal, Button and Form**
+* **Plan**: I wanted the contact us button in the navbar to provide the user with a modal when clicked, and for the form
+to allow the user to input their name, email address, and a message. I wanted the button they would click to submit 
+to display a message confirming their submission.
+* **Implementation**: I used Bootstrap and some jQuery to make this happen, along with assistance from Simen and a very
+patient tutor.
+* **Result**: The Contact Us modal, button and form all work as intended and are easy to navigate.
+* **Verdict**: Because of the results, this test passes!
 
-**Communication Form**
-* **Plan**: What I planned for this section is exactly how it turned out! First name, last name, email, and
-text input boxes with a submit button.
-* **Implementation** : I used Bootstrap to implement the necessary form elements.
-* **Result**: The end result is exactly what I had envisioned! It is clean, responsive, and understandable.
-* **Verdict**: Regarding these results, this test passes.
+**Questionnaire Button with Modal and Form**
+* **Plan**: At the start, I wanted the modal to hold a Google Doc - however, this looked less smooth than I had imagined,
+so I decided a regular bootstrap form would be better. It still achieved the goal - have a questionnaire button that returned
+a modal with a form to the user that they could fill out and submit. Similar to the contact us submission button, I wanted
+the submit button to display a message of confirmation.
+* **Implementation**: As with the contact modal, I used Bootstrap and some jQuery.
+* **Result**: While the end result differs from the original plan, I am quite happy with the result -
+ it is clean, responsive, and easy to fill out.
+* **Verdict**: Because of the results, this test passes!
 
-**Add Event Button**
-* **Plan**: While in the planning phase, I wanted a button that would lead the user from the calendar down to 
-the contact section, because I figured that that would be a primary user need.
-* **Implementation**: I used Bootstrap to add in this button.
-* **Result**: The end result is responsive and clean.
-* **Verdict**: Regarding these results, this test passes.
-
-**Weather Videos**
-* **Plan**: While in the planning phase, I wanted this to be a carousel of videos. However, I learned that
-in order to command the videos to stop playing once the user scrolled by, I would need to use JS, which is currently out of 
-my paygrade. So, I reworked the layout so all videos were on display. In mobile, they line up down the screen. While I wanted
-the lines of text to reorder between mobile and tablet+, I was informed by a tutor that this can only be completed with JS, 
-so I decided to leave it be.
-* **Implementation**: I used Bootstrap to make this new layout responsive and clean.
-* **Result**: While the end result isn't what I had envisioned, it is clean, responsive, and understandable.
-* **Verdict**: Regarding these results, this test passes.
+**Interactive Map with Markers and Marker Clusters**
+* **Plan**: As alluded to earlier, I originally intended for this site to be made up of multiple maps, each displaying markers
+for different types of services. However, I am more pleased with the end result than I think I would've been with the multiple maps,
+as this looks cleaner and unified. I hand-entered the different map markers, selecting as many sexual healthcare services as I could find.
+* **Implementation** : I used Google Maps API to implement this.
+* **Result**: The map is perfect! I like how it sits on the page, it is responsive, and the map markers and marker clusters are smooth.
+* **Verdict**: Because of the results, this test passes!
 
 ## Bugs
 #### Bugs During Development
