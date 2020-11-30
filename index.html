@@ -66,9 +66,8 @@
                         <label for="exampleFormControlTextarea1">Questions & Comments</label>
                         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Please let us know how we can help you today!"></textarea>
                     </div>
-                    <p class="submitted"></p>
                     <div>
-                        <button type="submit" class="contact-button" data-toggle="button" aria-pressed="false">Contact us!</button>
+                        <button type="submit" id="contactUs" class="contact-button" onclick="myContactFunction()" data-toggle="button" aria-pressed="false">Contact us!</button>
                     </div>
                 </form>
             </div>
@@ -160,18 +159,18 @@
                             <label>Your name</label>
                             <div class="form-row">
                                 <div class="col">
-                                    <input type="text" class="form-control" placeholder="First name">
+                                    <input type="text" class="form-control" placeholder="First name" required>
                                 </div>
                                 <div class="col">
-                                    <input type="text" class="form-control" placeholder="Last name">
+                                    <input type="text" class="form-control" placeholder="Last name" required>
                                 </div>
                             </div>
                         </div>
                         <div class="form-group">
                             <label>Your email address:</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
                         </div>
-                        <div class="form-group">
+                        <div class="form-group" required>
                             <label>Your pronouns:</label>
                             <select class="custom-select" size="5">
                                 <option selected>Please select your pronouns:</option>
@@ -224,7 +223,7 @@
                             <label class="form-check-label" for="Check1">I understand that if I am in immediate need of assistance, I should contact emergency services. Sexual Health Dublin is not held accountable if I do not do this.</label>
                         </div>
                         <div class="formSubmitted">
-                            <button type="submit" class="contact-button submitted">Submit</button> <!--Make submit button do the thing-->
+                            <button type="submit" id="questionnaireSubmit" class="contact-button" onclick="myQuestionnaireFunction">Submit</button> <!--Make submit button do the thing-->
                         </div>
                     </form>
                 </div>
