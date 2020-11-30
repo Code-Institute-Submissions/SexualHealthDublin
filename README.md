@@ -296,13 +296,10 @@ https://github.com/mcalistm/SexualHealthDublin.git
 
 ## Closing Notes
 
-This project has encouraged me to think about how I think in order to provide information in a clean, 
-concise and friendly way to users. It has also helped me get a better grasp on bootstrap, 
-and has increased my confidence in my abilities as a very junior web developer. I very much look 
-forward to continuting to build my skills! There were a few times where problems I came across 
-could easily be solved by javascript, so I am particularly excited to learn this. Creating this website 
-has been incredibly fun and rewarding, while also being one of the more challenging 
-undertakings I've committed to in quite a while. I'm so, so glad I did it.
+This project has helped me work on my skills from my MS1, as well as build my skills from the most recent
+modules. It has also helped me with asking for help when I need it, and knowing where I need to look for answers.
+While challenging, this project also increased my self confidence in the area. I look forward to continuing
+to build my skills in front-end development, and to learning about back-end development in the upcoming modules! 
 
 ## Credits
 * [My MS1 Project](https://mcalistm.github.io/NightValeCommunityRadio/)
