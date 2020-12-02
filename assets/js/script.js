@@ -144,16 +144,6 @@ const locations = [
 
 google.maps.event.addDomListener(window, "load", initMap);
 
-
-/**
- * This snippet of code allows for modals to pop up when the user
- * clicks on the contact us button, or on the questionnaire button.
- **/
-
-$(".modalOpen").modal({
-	backdrop: true
-});
-
 /**
  * This snippet of code means that when the user clicks the buttons 
  * to submit or to contact us, the page doesn't reload.
@@ -169,7 +159,7 @@ $(document).ready(function(){
  * when they have submitted the questionnaire form. 
  **/
 function myQuestionnaireFunction() {
-  document.getElementById("questionnaireSubmit").innerHTML = "Thanks for contacting us! We'll be in contact with you shortly.";
+  document.getElementById("questionnaireSubmit").innerHTML = "Thanks for submitting! We'll be in contact with you shortly.";
 };
 
 
@@ -180,3 +170,6 @@ function myQuestionnaireFunction() {
 function myContactFunction() {
   document.getElementById("contactUs").innerHTML = "Thanks for contacting us! We'll be in contact with you shortly.";
 };
+                     
+                     
+
