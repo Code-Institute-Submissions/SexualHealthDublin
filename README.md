@@ -1,6 +1,6 @@
 # Sexual Health Dublin Website
 
-![Multi-Device Screenshot](./wireframes/multideviceNVCR.JPG "Mutli-Device Screenshot")
+![Multi-Device Screenshot](./wireframes/multideviceSHD.JPG "Mutli-Device Screenshot")
 
 Thank you for taking the time to come visit my project! I welcome any comments, questions, 
 and suggestions, and can be reached with my GitHub contact details.
@@ -270,6 +270,9 @@ but rebooted the page automatically.
 Sometimes, when in dev tools the site works smoothly. Other times, the screen doesn't automatically fit, 
 and there is a horizontal scroll. I ran into this issue with my MS1, and think it may just be ... one of those things.
 
+Additionally, there are one or two empty div's on my page. These may look like a mistake, but they were put there intentionally
+to add a buffer without having to create new classes with new paddings. 
+
 ## Deployment
 
 Sexual Health Dublin was developed in GitPod, hosted by GitHub and using git.
@@ -305,7 +308,13 @@ https://github.com/mcalistm/SexualHealthDublin.git
 This project has helped me work on my skills from my MS1, as well as build my skills from the most recent
 modules. It has also helped me with asking for help when I need it, and knowing where I need to look for answers.
 While challenging, this project also increased my self confidence in the area. I look forward to continuing
-to build my skills in front-end development, and to learning about back-end development in the upcoming modules! 
+to build my skills in front-end development, and to learning about back-end development in the upcoming modules!
+
+On a more personal note, I chose this as the subject for my site: One, because I wanted to do something with
+real-world application, and two, because I have a personal connection to it. We all do. Sexual healthcare is incredibly
+important and stigmatized all at once. Trying to find sexual healthcare can be daunting and embarrassing because of
+internalized shame and social stigmas. In Dublin, the availability of these services are better than in many places,
+but still lacking. This is a project I would like to see in the real world.
 
 ## Credits
 * [My MS1 Project](https://mcalistm.github.io/NightValeCommunityRadio/)

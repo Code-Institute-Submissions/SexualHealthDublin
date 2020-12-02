@@ -180,5 +180,3 @@ function myQuestionnaireFunction() {
 function myContactFunction() {
   document.getElementById("contactUs").innerHTML = "Thanks for contacting us! We'll be in contact with you shortly.";
 };
-
-
