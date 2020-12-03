@@ -1,6 +1,6 @@
 # Sexual Health Dublin Website
 
-![Multi-Device Screenshot](./wireframes/multideviceSHD.JPG "Mutli-Device Screenshot")
+![Multi-Device Screenshot](../wireframes/multideviceSHD.JPG "Mutli-Device Screenshot")
 
 Thank you for taking the time to come visit my project! I welcome any comments, questions, 
 and suggestions, and can be reached with my GitHub contact details.
@@ -53,11 +53,11 @@ sites like this one in use, but they are cluttered and sometimes difficult to na
 
 #### User Stories:
 * As a user I expect to be able to contact professionals at SHD for assistance.
-![User Story 1 Screenshot](./wireframes/userStory1.JPG "User Story 1 Screenshot")
+![User Story 1 Screenshot](../wireframes/userStory1.JPG "User Story 1 Screenshot")
 * As a user I expect to be able to fill out and submit the SHD questionnaire.
-![User Story 2 Screenshot](./wireframes/userStory2.JPG "User Story 2 Screenshot")
+![User Story 2 Screenshot](../wireframes/userStory2.JPG "User Story 2 Screenshot")
 * As a user I expect to be able to browse services by location.
-![User Story 3 Screenshot](./wireframes/userStory3.JPG "User Story 3 Screenshot")
+![User Story 3 Screenshot](../wireframes/userStory3.JPG "User Story 3 Screenshot")
 
 #### Site Owner Goals
 * Provide information to users about various sexual health services.
@@ -105,7 +105,7 @@ As mentioned just under the Design Choices header, the
 [color palette](https://coolors.co/f4a261-ffffff-f4f1de-264653) I used was from 
 [Coolors.co](coolors.co). 
 
-![SHD Color Palette](./wireframes/SHDPalette.png "SHD Color Palette")
+![SHD Color Palette](../wireframes/SHDPalette.png "SHD Color Palette")
 
 * .background, .button-hover, & .link-color:hover: #FFF **“White”** This is the background color for the site, and also the pseudo-class color
 that is invoked when the user clicks or hovers over a button. I chose white because it is easy and calm,
