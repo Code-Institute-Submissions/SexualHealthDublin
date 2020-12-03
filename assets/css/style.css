@@ -198,6 +198,6 @@ body {
 /* Map */
 #map {
     min-height: 360px;
-    min-width: 400px;
     position: center;
+    display: inline-block;
 }
