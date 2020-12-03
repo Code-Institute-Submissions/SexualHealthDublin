@@ -142,38 +142,26 @@ const locations = [
       Mon-Fri: 9:00-17:30`,},
 ];
 
-
-
 /**
- * This snippet of code means that when the user clicks the buttons 
- * to submit or to contact us, the page doesn't reload.
- **/
+ * This code serves two purposes: It keeps the user from being able
+ * to click submit before the form is complete, and it returns
+ * an alert to the user when they submit a completed contact form.
+**/
 $(document).ready(function(){
-    $("#form_id").submit(function(){
-        return condition;
-    })
+$("#contactForm").submit(function(e) {
+    e.preventDefault();
+    alert("Thanks for submitting! We'll be in touch shortly.");
+});
 });
 
 /**
- * This snippet of code returns innerHTML text to the user
- * when they have submitted the questionnaire form. 
- **/
-function myQuestionnaireFunction() {
-  $("#questionnaireSubmit").click(function(){
+ * This code serves two purposes: It keeps the user from being able
+ * to click submit before the form is complete, and it returns
+ * an alert to the user when they submit a completed questionnaire.
+**/
+$(document).ready(function(){
+$("#questionnaireForm").submit(function(e) {
+    e.preventDefault();
     alert("Thanks for submitting! We'll be in touch in 48 to 72 business hours.");
-  });
-};
-
-
-/**
- * This snippet of code returns innerHTML text to the user
- * when they have submitted the contact form.
- **/
-function myContactFunction() {
-  $("#contactUs").click(function(){
-    alert("Thanks! We'll be in touch shortly.");
-  });
-};
-                     
-                     
-
+});
+});
