@@ -284,6 +284,10 @@ Sometimes, when in dev tools the site works smoothly and is perfectly responsive
 the screen doesn't automatically fit, and there is a horizontal scroll. I ran into this issue 
 with my MS1, and think it may just be ... one of those things.
 
+In the README file, I attempted to use markup standards for my images. However, these didn't seem to 
+work. I did some looking into it, and other CI students who had uploaded their files to peer-code-review
+in Slack were having the same problem. The fix is to diverge from markup to using html style.
+
 Additionally, there are one or two empty div's on my page. These may look like a mistake, but they were put there intentionally
 to add a buffer without having to create new classes with new paddings. 
 
