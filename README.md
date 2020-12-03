@@ -53,10 +53,13 @@ sites like this one in use, but they are cluttered and sometimes difficult to na
 
 #### User Stories:
 * As a user I expect to be able to contact professionals at SHD for assistance.
+
 <div align="center"><img src="assets/wireframes/userStory1.JPG" alt="User Story 1"></div>
 * As a user I expect to be able to fill out and submit the SHD questionnaire.
+
 <div align="center"><img src="assets/wireframes/userStory2.JPG" alt="User Story 2"></div>
 * As a user I expect to be able to browse services by location.
+
 <div align="center"><img src="assets/wireframes/userStory3.JPG" alt="User Story 3"></div>
 
 #### Site Owner Goals
