@@ -218,7 +218,7 @@ create little link icons like in my MS1.
 **Contact Us Modal, Button and Form**
 * **Plan**: I wanted the contact us button in the navbar to provide the user with a modal when clicked, and for the form
 to allow the user to input their name, email address, and a message. I wanted the button they would click to submit 
-to display a message confirming their submission.
+to display an alert confirming their submission.
 * **Implementation**: I used Bootstrap and some jQuery to make this happen, along with assistance from Simen and a very
 patient tutor.
 * **Result**: The Contact Us modal, button and form all work as intended and are easy to navigate.
@@ -228,7 +228,7 @@ patient tutor.
 * **Plan**: At the start, I wanted the modal to hold a Google Doc - however, this looked less smooth than I had imagined,
 so I decided a regular bootstrap form would be better. It still achieved the goal - have a questionnaire button that returned
 a modal with a form to the user that they could fill out and submit. Similar to the contact us submission button, I wanted
-the submit button to display a message of confirmation.
+the submit button to display an alert with a message of confirmation.
 * **Implementation**: As with the contact modal, I used Bootstrap and some jQuery.
 * **Result**: While the end result differs from the original plan, I am quite happy with the result -
  it is clean, responsive, and easy to fill out.

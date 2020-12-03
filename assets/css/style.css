@@ -85,6 +85,7 @@ body {
 }
 
 /* Header/Hero Section */
+
 .heroimg {
     background: url("../images/dublin.jpg") no-repeat center center fixed;
     background-size: cover;
@@ -118,11 +119,11 @@ body {
     height: auto;
 }
 
+/* Get Started Section */
+
 .questionnaire {
     display: flex;
 }
-
-/* Get Started Section */
 
 .getStarted {
     font-family: "Open Sans", sans-serif;
