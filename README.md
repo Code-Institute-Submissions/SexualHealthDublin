@@ -259,11 +259,17 @@ which I had missed.
 * Fix: Updating the href.
 * Verdict: I had changed the corresponding div ID and forgotten to update it in the navbar a tag!
 
-**Questionnaire submit button not displaying text correctly** 
+**Questionnaire submit button not displaying text correctly - code eventually entirely reworked but worth noting** 
 * Bug: When clicked on, the button either didn't display text but didn't reboot the page, or it displayed the text
 but rebooted the page automatically.
 * Fix: Removing a misplaced semicolon.
 * Verdict: Once I took out a misplaced semicolon, it worked like a charm!
+
+**Questionnaire and Contact Us buttons not functioning as intended** 
+* Bug: When clicked on, these buttons would display success message even if the forms weren't completed. 
+* Fix: Switched to using an alert() and preventDefault().
+* Verdict: Once this was sorted (thanks very much to the tutors), things work smoothly! Nothing happens when the 
+buttons are clicked if the forms aren't complete, and when they are the user gets an alert confirming this!
 
 #### Known Bugs
 
