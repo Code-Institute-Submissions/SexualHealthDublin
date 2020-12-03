@@ -53,8 +53,11 @@ sites like this one in use, but they are cluttered and sometimes difficult to na
 
 #### User Stories:
 * As a user I expect to be able to contact professionals at SHD for assistance.
+![User Story 1 Screenshot](./wireframes/userStory1.JPG "User Story 1 Screenshot")
 * As a user I expect to be able to fill out and submit the SHD questionnaire.
+![User Story 2 Screenshot](./wireframes/userStory2.JPG "User Story 2 Screenshot")
 * As a user I expect to be able to browse services by location.
+![User Story 3 Screenshot](./wireframes/userStory3.JPG "User Story 3 Screenshot")
 
 #### Site Owner Goals
 * Provide information to users about various sexual health services.
@@ -214,7 +217,6 @@ create little link icons like in my MS1.
 * **Result**: The navbar and footer are both positioned where I want them and are fully responsive, with links functioning.
 * **Verdict**: Because of the results, the test passes!
 
-
 **Contact Us Modal, Button and Form**
 * **Plan**: I wanted the contact us button in the navbar to provide the user with a modal when clicked, and for the form
 to allow the user to input their name, email address, and a message. I wanted the button they would click to submit 
@@ -273,8 +275,9 @@ buttons are clicked if the forms aren't complete, and when they are the user get
 
 #### Known Bugs
 
-Sometimes, when in dev tools the site works smoothly. Other times, the screen doesn't automatically fit, 
-and there is a horizontal scroll. I ran into this issue with my MS1, and think it may just be ... one of those things.
+Sometimes, when in dev tools the site works smoothly and is perfectly responsive. Other times, 
+the screen doesn't automatically fit, and there is a horizontal scroll. I ran into this issue 
+with my MS1, and think it may just be ... one of those things.
 
 Additionally, there are one or two empty div's on my page. These may look like a mistake, but they were put there intentionally
 to add a buffer without having to create new classes with new paddings. 
