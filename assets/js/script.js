@@ -5,7 +5,7 @@
  * people in the gbMSM community, or if they take walk-ins).
  * The code here also allows for map markers that are near one another to group
  * together in a cluster automatically, displaying service density to the user.
-*/
+**/
 
 function initMap() {
     const map = new google.maps.Map(document.getElementById('map'), {
@@ -142,7 +142,7 @@ const locations = [
       Mon-Fri: 9:00-17:30`,},
 ];
 
-google.maps.event.addDomListener(window, "load", initMap);
+
 
 /**
  * This snippet of code means that when the user clicks the buttons 
@@ -159,7 +159,9 @@ $(document).ready(function(){
  * when they have submitted the questionnaire form. 
  **/
 function myQuestionnaireFunction() {
-  document.getElementById("questionnaireSubmit").innerHTML = "Thanks for submitting! We'll be in contact with you shortly.";
+  $("#questionnaireSubmit").click(function(){
+    alert("Thanks for submitting! We'll be in touch in 48 to 72 business hours.");
+  });
 };
 
 
@@ -168,7 +170,9 @@ function myQuestionnaireFunction() {
  * when they have submitted the contact form.
  **/
 function myContactFunction() {
-  document.getElementById("contactUs").innerHTML = "Thanks for contacting us! We'll be in contact with you shortly.";
+  $("#contactUs").click(function(){
+    alert("Thanks! We'll be in touch shortly.");
+  });
 };
                      
                      
